@@ -13,7 +13,7 @@ export default function AuthenticatedLayout({
         useState(false);
 
     return (
-        <div className="min-h-screen bg-gray-100 dark:bg-gray-900">
+        <div className="min-h-screen bg-gray-400 dark:bg-gray-900">
            <Navbar />
 
             {header && (
